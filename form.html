@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+  background-image: url("https://www.fieldstonecommunities.com/wp-content/uploads/2016/08/Form-Background.jpg");
+}
+
+
+        tr{
+            font: italic small-caps bold 12px/30px Georgia, serif;
+            color: aliceblue;
+        }
+
+        h1{
+                color: brown;
+        }
+
+        h4{
+                color: crimson;
+        }
+
+
+
+
+    </style>
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body >
+    <form action="index.php" method="POST">
+    <center>
+        <h1><i>Vacinnation registration FORM</i></h1>
+    
+  <table border ="0">
+      <tr>
+          <h4>PERSONAL INFORMATION:</h4>
+          <td> Name:</td>
+          <td align ="center"><input type="text" name="Name" size="30" required><font color="red">*</font></td>
+      </tr>
+      <tr>
+        <td>Address:</td>
+        <td align ="center"><textarea name="Address" size="30"></textarea><font color="red">*</font></td>
+    </tr>
+
+    <tr>
+        <td>Phone Number:</td>
+        <td align ="center"><input type="number" name="phonenumber" placeholder="+91**********" required size="30"></td>
+    </tr>
+
+    <tr>
+        <td> Email ID:</td>
+        <td align ="center"><input type="email" name="EmailID" size="30" required placeholder="xyz@xyz.com"><font color="red">*</font></td>
+    </tr>
+
+    <tr>
+        <td>Emergency Contact Number:</td>
+        <td align ="center"><input type="number" name="Emergencycontactnumber" size="30" placeholder="+91**********"></td>
+    </tr>
+
+    <tr>
+        <td>Birth Date:</td>
+        <td align ="center"><input type="date" name="Birthdate" size="30" required><font color="red">*</font></td>
+    </tr>
+    <tr>
+        
+        <td>Gardian's Name:</td>
+        <td align ="center"><input type="text" name="Gardian's Name" required size="30"></td>
+    </tr>
+        
+    <tr>
+        <td>
+            <p>Please select your Gender:</p>
+            <input type="radio" id="male" name="male" >
+            <label for="age1">Male</label><br>
+            <input type="radio" id="female" name="female" >
+            <label for="age2">Female</label><br>  
+            
+    </td>
+<tr>
+<td>
+       <br> <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+
+    </td>
+
+</tr>
+
+<table border="2" bgcolor="white" style="width:100%">
+    <tr align="center">
+
+        
+
+        <td colspan="1">
+            <h3><a href="Gallery.html" target="page2">Photo Gallery</a></h3>
+        </td>
+
+        <td colspan="1">
+            <h3><a href="Events.html" >Schedule</a></h3>
+        </td>
+
+        <td colspan="1">
+            <h3><a href="page2.html">Home</a></h3>
+        </td>
+
+    </tr>
+</table>
+
+    </center>
+
+  </table>
+</form>
+</body>
+</html>
